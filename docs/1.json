@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "a0dd6119-4b23-4f5b-9eee-6e7f016e2b76",
+		"name": "ApiGateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listarTodosClientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8700/v1/api/cliente/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8700",
+					"path": [
+						"v1",
+						"api",
+						"cliente",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listarTodosClientesv2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8700/promerica/v1/api/cliente/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8700",
+					"path": [
+						"promerica",
+						"v1",
+						"api",
+						"cliente",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
