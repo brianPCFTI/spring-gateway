@@ -1,0 +1,6 @@
+server:
+  port: 8700
+
+uri:
+  api:
+    clientes: http://localhost:8080
